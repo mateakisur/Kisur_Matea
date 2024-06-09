@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("slike/pozadina.jpg");
+}
+
+@font-face {
+    font-family: mateakisur;
+    src: url("mateakisur.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-font {
+    font-family: mateakisur;
+}
+
+h1 {
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color: rebeccapurple;
+	text-align-last: center;
+	background-color: cornsilk;
+}
+
+h2, h4 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: rebeccapurple;
+	text-align-last: center;
+}
+
+h3{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: palevioletred;
+	text-align-last: center;
+	background-color: cornsilk;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+p {
+	border-style: outset;
+	border-bottom-width: medium;
+	border-bottom-color: palevioletred;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 16px;
+	line-height: 18px;
+	background-color: antiquewhite;
+	padding: 20px;
+	text-align-last: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+blockquote{
+	color: antiquewhite;
+	text-align-last: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-list {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    background-color:antiquewhite;
+	align-content: center;
+}
+
+.horizontal-list li {
+    margin-right: 15px;
+	align-content: center;
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0;
+	align-content: center;
+}
+
+.horizontal-list a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: rebeccapurple;
+	align-content: center;
+}
+
+.horizontal-list a:hover {
+    background-color: lightskyblue;
+	align-content: center;
+}
+
+.pozadina {
+	background-image: url("slike/pozadina2.jpg")
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divcontainer2 {
+	text-align: center;
+}
+
+.container2{
+	display: inline-block;
+	text-align: center;
+}
+.pozadina3 {
+	background-image: url("slike/pozadina3.jpg")
+}
+
+.video-container {
+    display: grid;
+    place-items: center;
+}
